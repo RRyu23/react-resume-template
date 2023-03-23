@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        I'm Lyuxuan Wang <strong className="text-stone-100"> Digital Social Media</strong>, currently working
         at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
         registrar and site builder.
       </p>
@@ -122,53 +122,53 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Videos Production',
     skills: [
       {
-        name: 'English',
+        name: 'Adobe Premiere Pro',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'CapCut',
+        level: 10,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Final Cut Pro',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Social Media Operations',
     skills: [
       {
-        name: 'React',
+        name: 'Creative Content Creation',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Videos Production',
+        level: 10,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Multi-media Marketing',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Game Design',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Game World Building',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Iterative Design Process',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Play-testing Analysis',
+        level: 9,
       },
     ],
   },
@@ -271,37 +271,69 @@ export const education: TimelineItem[] = [
     date: 'Aug 2022 - May 2024',
     location: 'University of Southern California',
     title: 'M.S. in Digital Social Media',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+        <div>GPA:4.0/4.0
+          <p>Courses: ABC, CBA, ABC</p>
+        </div>),
   },
   {
     date: 'Sept 2017 - Jun 2021',
     location: 'Beijing International Studies University',
     title: 'B.A. in Journalism & B.A. in English',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+        <div>GPA:3.6/4.0
+          <p>Courses: ABC, CBA, ABC</p>
+        </div>),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Mar 2020 - Present',
+    location: 'Remote',
+    title: 'Social Media Influencer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Operate two channels at Little Red Book with over 4000 followers, one channel is a food blogger, and the other is a life vlogger.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Mar 2022 - Jul 2022',
+    location: 'ByteDance',
+    title: 'Intern in TikTok accounts operation',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+        <div>
+          <p>
+            &#x2022; Independently managed 7 short video channels on TikTok and YouTube to promote the growth of users and boost engagement with product. The channel in charge of operation has a maximum of 1.1M followers on TikTok
+          </p>
+          <p>
+            &#x2022; Developed and maintained client relationships for strategic partnerships in the US, Indonesia, Philippines, Brazil, resulting in user
+            expansion and collaboration with influencers hosting more than 3M followers on TikTok.
+          </p>
+          <p>
+            &#x2022; Contributed to team brainstorming and campaign analysis to drive market-oriented commercials and cross-functional collaboration.
+          </p>
+        </div>
+
+    ),
+  },
+  {
+    date: 'Jul 2021 - Jan 2022',
+    location: 'CRRC Corporation Limited (China Railway Rolling Stock Corporation',
+    title: 'Member of Corporate Culture Department',
+    content: (
+        <div>
+          <p>
+            &#x2022; Planned and organized a series of activities for CRRC's 140th anniversary, resulting in successful sponsorship agreements.
+          </p>
+          <p>
+            &#x2022; Compiled and managed the official social media platforms, resulting in daily views of more than 10K times through targeted and popular hashtags on the company's official microblog platform.
+          </p>
+          <p>
+            &#x2022; Created over 300 publicity contents tailored to the characteristics of different social media platforms, resulting in increased engagement and followers.
+          </p>
+        </div>
     ),
   },
 ];
