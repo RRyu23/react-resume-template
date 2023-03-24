@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Melody Personal Resume',
+  description: "Resume",
 };
 
 /**
@@ -196,20 +196,21 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'All I Want To Say Is I LOVE YOU !!! | Interview Program',
+    description: 'How long have you not told your parents, lovers and friends that I love you?\n' +
+        'In this short video, we invited several volunteers on campus to do the challenge, calling the people they love and saying I love you to them directly.',
+    url: 'https://www.youtube.com/watch?v=-BvFiQswOlY',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Hello, Goodbye| Microfilm',
+    description: 'A short film about friendship. After a quarrel with Victoria, Elva died by accidents. Before she went to the heaven, she wanted to see her best friend Victoria again......',
+    url: 'https://www.youtube.com/watch?v=M3C6AIq2zN4',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
+    title: 'The Ultimate Chinese Food Challenge: International Students Try Mystery Dishes',
+    description: 'In this short film, we invited international students from various countries to taste some local refreshment specialities in China. Let\'s see if they can accept this unique taste! ',
     url: 'https://timbaker.me',
     image: porfolioImage3,
   },
